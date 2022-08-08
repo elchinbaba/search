@@ -19,6 +19,7 @@ img.logo {
 
 .search {
     padding: 0 10px;
+    max-width: 584px;
     height: 44px;
     display: inline-flex;
     flex-direction: row;
@@ -37,7 +38,7 @@ input[name="q"] {
     outline: none;
 }
 
-.search:hover, .search > input[name="q"]:active {
+.search:hover {
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
