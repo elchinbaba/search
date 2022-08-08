@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 22px 20px;
+    border: 0;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.header {
+    margin-top: 39px;
+    margin-bottom: 4px;
+    padding-left: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #d93025;
+}
+
+main {
+    padding-left: 45px;
+    margin-top: 45px;
+}
+
+.form {
+    width: 1140px;
+}
+
+.main-label {
+    font-family: 'arial';
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.find-pages {
+    display: inline-block;
+    width: 752px;
+    font-weight: 500;
+    color: #333;
+}
+
+.to-do {
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+}
+
+.input > label {
+    width: 16%;
+    font-family: 'arial';
+    font-size: 13px;
+    font-weight: 400;
+    color: #222;
+}
+
+.input > input {
+    box-sizing: content-box;
+    width: 554px;
+    height: 25px;
+    box-shadow: none;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;
+    font-size: 13px;
+    outline: none;
+}
+
+.input > input:active, .input > input:focus {
+    border: 1px solid #4d90fe;
+}
+
+.input > span {
+    padding-left: 3px;
+    margin-left: 1%;
+    width: 32%;
+    font-family: 'arial';
+    font-size: 11px;
+    color: #555;
+}
+
+.input .specific {
+    color: #666;
+    font-family: monospace;
+    white-space: pre;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="./assets/css/advanced_search.css">
+    </head>
+    <body>
+        <header>
+            <a class="home-link" href="./index.html">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
+            </a>
+            <h1 class="header">Advanced Search</h1>
+        </header>
+        <main>
+            <div class="form">
+                <div class="main-label">
+                    <span class="find-pages">Find pages with...</span>
+                    <span class="to-do">To do this in the search box.</span>
+                </div>
+                <form action="https://www.google.com/search">
+                    <div class="input">
+                        <label for="">all these words:</label>
+                        <input type="text" name="as_q" value>
+                        <span>Type the important words: <span class="specific">tri-colour rat terrier</span></span>
+                    </div>
+                    <div class="input">
+                        <label for="">this exact word or phrase:</label>
+                        <input type="text" name="as_epq" value>
+                        <span>Put exact words in quotes: <span class="specific">"rat terrier"</span></span>
+                    </div>
+                    <div class="input">
+                        <label for="">any of these words:</label>
+                        <input type="text" name="as_oq" value>
+                        <span>Type <span class="specific">OR</span> between all the words you want: <span class="specific">miniature OR standard</span></span>
+                    </div>
+                    <div class="input">
+                        <label for="">none of these words:</label>
+                        <input type="text" name="as_eq" value>
+                        <span>Put a minus sign just before words that you don't want: <span class="specific">-rodent, -"Jack Russell"</span></span>
+                    </div>
+                    <button type="submit" hidden></button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
