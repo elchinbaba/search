@@ -1,7 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.home {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.home > a {
+    color: rgba(0,0,0, .87);
+    text-decoration: none;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+.home > a:hover {
+    text-decoration: underline;
 }
 
 img.logo {
